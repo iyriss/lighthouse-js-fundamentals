@@ -22,3 +22,15 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+//isCitizen is evaluating to true in the conditional statement
+const isCitizen = true;
+const age = 28l
+if (isCitizen && age > 18) {
+  console.log(Vote!);
+}
+
+//Logical NOT operator
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
