@@ -11,7 +11,7 @@ if (cold) {
 
 console.log("Now you're ready to go outside!");*/
 
-const temperature = -1;
+/* const temperature = -1;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -21,7 +21,7 @@ if (temperature < 0) {
   console.log("Short sleeves are fine.");
 }
 
-console.log("Now you're ready to go outside!");
+console.log("Now you're ready to go outside!");*/
 
 //isCitizen is evaluating to true in the conditional statement
 /*const isCitizen = true;
@@ -57,6 +57,7 @@ while (x <= 20) {
   console.log ('JuliaJames'); 
 } else {console.log(x)} x++;}*/
 
+/*JuliaJames
 let x = 1
 while (x <= 20) {
   if (x % 3 === 0 && x % 5 === 0) {
@@ -86,7 +87,7 @@ while (num >= 0 ) {
 } */
 
 // Countdown, lift-off!
-let seconds = 60;
+/*let seconds = 60;
 while (seconds >= 0) {
   if (seconds === 50) {
     console.log ('Orbiter transfers from ground to internal power');
@@ -120,3 +121,12 @@ for (let i = 1; i <= 12; i++) {
     solution *= i;
 }
 console.log(solution);
+*/
+
+//Find my seat exercise
+for (let i = 0; i <= 25 ; i++) {
+  for (let j = 0; j <= 99 ; j++) {
+    console.log(i + '-' + j);
+  }
+}
+
