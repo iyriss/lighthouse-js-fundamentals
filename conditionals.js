@@ -24,13 +24,26 @@ if (temperature < 0) {
 console.log("Now you're ready to go outside!");
 
 //isCitizen is evaluating to true in the conditional statement
-const isCitizen = true;
-const age = 28l
+/*const isCitizen = true;
+const age = 28
 if (isCitizen && age > 18) {
   console.log(Vote!);
-}
+}*/
 
-//Logical NOT operator
+//Example of Logical NOT operator
+let raining = true;
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+
+const whichSchool = function (age) {
+  if (age < 13) {
+      return 'Elementary School'
+  } else if (age >= 13 && age <= 18){
+      return 'Secondary School'
+  } else {
+      return 'Ligthhouse Labs';
+  };
+}
+
+console.log(whichSchool(14));
