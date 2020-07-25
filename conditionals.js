@@ -38,12 +38,67 @@ if (!raining) {
 
 const whichSchool = function (age) {
   if (age < 13) {
-      return 'Elementary School'
+    return 'Elementary School'
   } else if (age >= 13 && age <= 18){
-      return 'Secondary School'
+    return 'Secondary School'
   } else {
-      return 'Ligthhouse Labs';
-  };
+    return 'Lighthouse Labs'; }
 }
 
 console.log(whichSchool(14));
+
+/*let x = 1
+while (x <= 20) {
+   if (x % 3 === 0){
+  console.log ('Julia');
+  } else if (x % 5 === 0){
+  console.log('James');
+  } else if (x % 3 === 0 && x % 5 === 0){
+  console.log ('JuliaJames'); 
+} else {console.log(x)} x++;}*/
+
+let x = 1
+while (x <= 20) {
+  if (x % 3 === 0 && x % 5 === 0) {
+      console.log("JuliaJames");
+  }else if (x % 5 === 0) {
+      console.log("James");
+  }else if (x % 3 === 0) {
+      console.log("Julia");
+  }
+  else {
+      console.log(x);
+  }
+  // increment x at the end of each loop
+  x = x + 1 ; 
+}
+
+/*let num = 99 
+while (num >= 0 ) {
+  if (num > 2) {
+    console.log(num + ' bottles of juice on the wall! ' + num + ' bottles of juice! Take one down, pass it around... ' + (num-1) + ' bottles of juice on the wall!');
+  } else if (num === 2) {
+    console.log(num + ' bottles of juice on the wall! ' + num + ' bottles of juice! Take one down, pass it around... ' + (num-1) + ' bottle of juice on the wall!');
+  } else if (num === 1) {
+    console.log(num + ' bottle of juice on the wall! ' + num + ' bottle of juice! Take one down, pass it around... ' + (num-1) + ' bottles of juice on the wall!');
+  } else {console.log('No bottles to pass around!');
+  }; num--;
+} */
+
+// Countdown, lift-off!
+let seconds = 60;
+while (seconds >= 0) {
+  if (seconds === 50) {
+    console.log ('Orbiter transfers from ground to internal power');
+  } else if (seconds === 31) {
+    console.log('Ground launch sequencer is go for auto sequence start');
+  } else if (seconds === 16) {
+    console.log('Activate launch pad sound suppression system');
+  } else if (seconds === 10) {
+    console.log('Activate main engine hydrogen burnoff system');
+  } else if (seconds === 6) {
+    console.log('Solid rocket ignition and liftoff!')
+  } else {console.log('T-' + seconds + ' seconds');
+  } seconds--;  
+}
+
