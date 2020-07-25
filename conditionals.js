@@ -102,3 +102,21 @@ while (seconds >= 0) {
   } seconds--;  
 }
 
+for (var u = 0; u < 5; u = u + 1) {
+  for (var y = 0; y < 3; y = y + 1) {
+    console.log(u + "," + y);
+  }
+}
+
+
+for (let x = 9; x >= 1 ; x--) {
+  console.log('hello ' + x);
+}
+
+//Factorials
+let solution = 1
+
+for (let i = 1; i <= 12; i++) {
+    solution *= i;
+}
+console.log(solution);
